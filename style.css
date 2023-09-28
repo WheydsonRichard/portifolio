@@ -209,6 +209,10 @@ section.especialidade .flex{
 .especialidade .especialidade-box h3{
 font-size:28px ;
 margin: 15px 0;
+<<<<<<< HEAD
+=======
+text-align: center;
+>>>>>>> 70b3c26 (feito)
 }
 
 /* ESTILO DO SOBRE */
@@ -255,6 +259,70 @@ section.sobre .flex{
     margin: 0 5px;
     transition: .2s;
 }
+<<<<<<< HEAD
+=======
+.sobre .dev{
+    padding: 60px 4%;
+}
+.sobre .dev .interface .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sobre .dev .interface .titulo{
+    margin: 100px;
+    text-align: center;
+}
+.sobre .dev .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.dev .flex .funcao{
+    margin: 1px 0;
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+
+
+.dev .flex .img-eu img{
+    max-width: 110px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .2s;
+    
+}
+
+.dev .flex .img-cassio img{
+    max-width: 110px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .2s;
+    
+}
+.dev .flex .img-pedro img{
+    max-width: 120px;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .2s;
+    
+}
+.dev .flex img:hover{
+    box-shadow: 0 0 8px #ffff;
+    transform: scale(1.05);
+}
+
+.sobre .funcao p{
+    color:#02fefe;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.sobre .funcao li{
+    color: #ffff;
+    font-size: 10px;
+}
+>>>>>>> 70b3c26 (feito)
 
 /* ESTILO DO PROJETOS */
 
@@ -373,6 +441,17 @@ footer .line-footer p a{
     color: white;
 }
 
+<<<<<<< HEAD
+=======
+/* ANIMAÇAO */
+
+.topoSite, .especialidade, .sobre{
+    visibility: hidden;
+}
+
+
+
+>>>>>>> 70b3c26 (feito)
 @media screen and (max-width: 1020px){
     /* CLASSE GERAL */
          .flex{
@@ -410,7 +489,12 @@ footer .line-footer p a{
         }
         .topoSite .imgtopoSite img{
             width: 100%;
+<<<<<<< HEAD
             margin-bottom: 100px;
+=======
+            margin-bottom: 80px;
+            margin-top: -70px;
+>>>>>>> 70b3c26 (feito)
         }
         .topoSite .braco img{
             width: 250px;
@@ -441,6 +525,23 @@ footer .line-footer p a{
             width: 100%;
             
         }
+<<<<<<< HEAD
+=======
+        .sobre .dev .interface .titulo{
+            display: inline-flex;
+            text-align: center;
+            flex-direction: column;
+            margin-left: 15px;
+        }
+
+        .dev .flex .funcao{
+            border:none
+            
+        }
+        
+
+
+>>>>>>> 70b3c26 (feito)
 
         /* projeto */
         section.projeto{
